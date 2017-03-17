@@ -15,6 +15,7 @@
 		568488AB1E7B80E5004F8A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568488A91E7B80E5004F8A06 /* LaunchScreen.storyboard */; };
 		568488B61E7B80E5004F8A06 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488B51E7B80E5004F8A06 /* CRProtocolManagerTests.m */; };
 		568488C11E7B80E5004F8A06 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488C01E7B80E5004F8A06 /* CRProtocolManagerUITests.m */; };
+		568488D01E7B8115004F8A06 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488CF1E7B8115004F8A06 /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		568488BC1E7B80E5004F8A06 /* CRProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568488C01E7B80E5004F8A06 /* CRProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManagerUITests.m; sourceTree = "<group>"; };
 		568488C21E7B80E5004F8A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568488CE1E7B8115004F8A06 /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		568488CF1E7B8115004F8A06 /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		5684889A1E7B80E5004F8A06 /* CRProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				568488CE1E7B8115004F8A06 /* CRProtocolManager.h */,
+				568488CF1E7B8115004F8A06 /* CRProtocolManager.m */,
 				5684889E1E7B80E5004F8A06 /* AppDelegate.h */,
 				5684889F1E7B80E5004F8A06 /* AppDelegate.m */,
 				568488A11E7B80E5004F8A06 /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568488D01E7B8115004F8A06 /* CRProtocolManager.m in Sources */,
 				568488A31E7B80E5004F8A06 /* ViewController.m in Sources */,
 				568488A01E7B80E5004F8A06 /* AppDelegate.m in Sources */,
 				5684889D1E7B80E5004F8A06 /* main.m in Sources */,

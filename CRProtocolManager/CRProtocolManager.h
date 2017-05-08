@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface CRProtocolManager : NSObject
++ (void)registServiceProvide:(id)provide forProtocol:(Protocol *)protocol;
 
++ (id)serviceProvideForProtocol:(Protocol *)protocol;
 @end

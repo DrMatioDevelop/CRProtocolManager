@@ -106,14 +106,6 @@
 			children = (
 				568488CE1E7B8115004F8A06 /* CRProtocolManager.h */,
 				568488CF1E7B8115004F8A06 /* CRProtocolManager.m */,
-				5684889E1E7B80E5004F8A06 /* AppDelegate.h */,
-				5684889F1E7B80E5004F8A06 /* AppDelegate.m */,
-				568488A11E7B80E5004F8A06 /* ViewController.h */,
-				568488A21E7B80E5004F8A06 /* ViewController.m */,
-				568488A41E7B80E5004F8A06 /* Main.storyboard */,
-				568488A71E7B80E5004F8A06 /* Assets.xcassets */,
-				568488A91E7B80E5004F8A06 /* LaunchScreen.storyboard */,
-				568488AC1E7B80E5004F8A06 /* Info.plist */,
 				5684889B1E7B80E5004F8A06 /* Supporting Files */,
 			);
 			path = CRProtocolManager;
@@ -122,6 +114,14 @@
 		5684889B1E7B80E5004F8A06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5684889E1E7B80E5004F8A06 /* AppDelegate.h */,
+				5684889F1E7B80E5004F8A06 /* AppDelegate.m */,
+				568488A11E7B80E5004F8A06 /* ViewController.h */,
+				568488A21E7B80E5004F8A06 /* ViewController.m */,
+				568488A41E7B80E5004F8A06 /* Main.storyboard */,
+				568488A71E7B80E5004F8A06 /* Assets.xcassets */,
+				568488A91E7B80E5004F8A06 /* LaunchScreen.storyboard */,
+				568488AC1E7B80E5004F8A06 /* Info.plist */,
 				5684889C1E7B80E5004F8A06 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -511,6 +511,7 @@
 				568488C71E7B80E5004F8A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568488C81E7B80E5004F8A06 /* Build configuration list for PBXNativeTarget "CRProtocolManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				568488CA1E7B80E5004F8A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568488CB1E7B80E5004F8A06 /* Build configuration list for PBXNativeTarget "CRProtocolManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				568488CD1E7B80E5004F8A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

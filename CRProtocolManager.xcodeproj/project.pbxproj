@@ -16,6 +16,8 @@
 		568488B61E7B80E5004F8A06 /* CRProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488B51E7B80E5004F8A06 /* CRProtocolManagerTests.m */; };
 		568488C11E7B80E5004F8A06 /* CRProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488C01E7B80E5004F8A06 /* CRProtocolManagerUITests.m */; };
 		568488D01E7B8115004F8A06 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 568488CF1E7B8115004F8A06 /* CRProtocolManager.m */; };
+		56C68A3D1EC1C77A0002ABC7 /* CRProtocolManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 56C68A3C1EC1C77A0002ABC7 /* CRProtocolManager.podspec */; };
+		56C68A3F1EC1C77F0002ABC7 /* FILE_LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 56C68A3E1EC1C77F0002ABC7 /* FILE_LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		568488C21E7B80E5004F8A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568488CE1E7B8115004F8A06 /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
 		568488CF1E7B8115004F8A06 /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
+		56C68A3C1EC1C77A0002ABC7 /* CRProtocolManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CRProtocolManager.podspec; sourceTree = "<group>"; };
+		56C68A3E1EC1C77F0002ABC7 /* FILE_LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FILE_LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,10 @@
 		5684888F1E7B80E5004F8A06 = {
 			isa = PBXGroup;
 			children = (
+				56C68A3C1EC1C77A0002ABC7 /* CRProtocolManager.podspec */,
+				56C68A3E1EC1C77F0002ABC7 /* FILE_LICENSE */,
 				5684889A1E7B80E5004F8A06 /* CRProtocolManager */,
+				56C68A3B1EC1C7590002ABC7 /* Demo */,
 				568488B41E7B80E5004F8A06 /* CRProtocolManagerTests */,
 				568488BF1E7B80E5004F8A06 /* CRProtocolManagerUITests */,
 				568488991E7B80E5004F8A06 /* Products */,
@@ -106,7 +113,6 @@
 			children = (
 				568488CE1E7B8115004F8A06 /* CRProtocolManager.h */,
 				568488CF1E7B8115004F8A06 /* CRProtocolManager.m */,
-				5684889B1E7B80E5004F8A06 /* Supporting Files */,
 			);
 			path = CRProtocolManager;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				5684889C1E7B80E5004F8A06 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ../CRProtocolManager;
 			sourceTree = "<group>";
 		};
 		568488B41E7B80E5004F8A06 /* CRProtocolManagerTests */ = {
@@ -143,6 +150,14 @@
 				568488C21E7B80E5004F8A06 /* Info.plist */,
 			);
 			path = CRProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		56C68A3B1EC1C7590002ABC7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5684889B1E7B80E5004F8A06 /* Supporting Files */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +269,8 @@
 				568488AB1E7B80E5004F8A06 /* LaunchScreen.storyboard in Resources */,
 				568488A81E7B80E5004F8A06 /* Assets.xcassets in Resources */,
 				568488A61E7B80E5004F8A06 /* Main.storyboard in Resources */,
+				56C68A3F1EC1C77F0002ABC7 /* FILE_LICENSE in Resources */,
+				56C68A3D1EC1C77A0002ABC7 /* CRProtocolManager.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
